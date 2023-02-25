@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: rgb(132, 0, 255);
+}
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(13 31 72);
+  color: white;
+  border-radius: 20px;
+}
+.swap-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(132, 0, 255);
+}
+.swap-box {
+  width: 57%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: rgb(13, 17, 28);
+  border-radius: 15px;
+}
+.title {
+  text-align: center;
+  background-color: rgb(13, 17, 28);
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+.swap-info-container {
+  height: 50%;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(19, 26, 42);
+  border-radius: 10px;
+}
+
+.amount {
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(13, 17, 28);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+.token-inputs-group {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 65%;
+}
+.token-address-input {
+  height: 50px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(13, 17, 28);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.token-amount-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 30%;
+  height: 100%;
+}
+.pool-fee-txt {
+  position: absolute;
+  bottom: 17px;
+  color: white;
+  font-size: 12px;
+}
+.swap-btn {
+  width: 80%;
+  height: 65px;
+  font-size: 30px;
+  padding-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(76, 130, 251);
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.swap-btn:hover {
+  background-color: rgb(26, 95, 250);
+}
